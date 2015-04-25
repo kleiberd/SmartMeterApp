@@ -1,0 +1,86 @@
+<ons-page ng-controller="sensorController">
+    <ons-toolbar>
+        <div class="left">
+            <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">{{ id }}</div>
+    </ons-toolbar>
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-disc" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content">
+                    <div class="name">Azonosító</div>
+                    <span class="desc">{{ id }}</span>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-edit" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content">
+                    <div class="name">Név</div>
+                    <span class="desc">{{ name }}</span>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-clipboard" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content">
+                    <div class="name">Leírás</div>
+                    <span class="desc">{{ description }}</span>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-gear-b" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content">
+                    <div class="name">Mértékegység</div>
+                    <span class="desc">{{ unit }}</span>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-stats-bars" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content" ng-click="statOpen()">
+                    <div class="name">Mért adatok</div>
+                    <span class="desc"></span>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-location" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content">
+                    <div class="name">Térkép</div>
+                    <div style="width: 100%; height: 300px;" id="map_canvas"></div>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+</ons-page>

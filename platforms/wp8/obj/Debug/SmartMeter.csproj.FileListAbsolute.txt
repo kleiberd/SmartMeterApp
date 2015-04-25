@@ -1,0 +1,14 @@
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\ApplicationIcon.png
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\Background.png
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\com.smartmeter.app.dll
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\com.smartmeter.app.pdb
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\AppManifest.xaml
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\Bin\Debug\com.smartmeter.app.xap
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\App.g.cs
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\MainPage.g.cs
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\com.smartmeter.app.g.resources
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\com.smartmeter.app.dll
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\com.smartmeter.app.pdb
+D:\Dev\Projects\SmartMeterApp\platforms\wp8\obj\Debug\XapCacheFile.xml

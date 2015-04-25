@@ -1,0 +1,18 @@
+<ons-page ng-controller="adminController">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()">
+                <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">Admin</div>
+    </ons-toolbar>
+
+    <div class="login-form">
+        <input type="email" class="text-input--underbar" placeholder="Email cím" value="">
+        <input type="password" class="text-input--underbar" placeholder="Jelszó" value="">
+        <br><br>
+        <ons-button modifier="large" class="login-button" ng-click="login()">Bejelentkezés</ons-button>
+    </div>
+
+</ons-page>

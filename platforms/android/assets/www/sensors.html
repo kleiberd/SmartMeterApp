@@ -1,0 +1,17 @@
+<ons-navigator animation="slide" var="app.navigator">
+    <ons-page ng-controller="sensorsController">
+        <ons-toolbar ng-init="getSensors()">
+            <div class="left">
+                <ons-toolbar-button ng-click="menu.toggle()">
+                    <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">Szenzorok</div>
+        </ons-toolbar>
+
+        <ons-list ng-repeat="x in token" ng-click="openSensor(x)">
+            <ons-list-item modifier="chevron">{{ x.device_id }} - {{ x.name }}</ons-list-item>
+        </ons-list>
+
+    </ons-page>
+</ons-navigator>

@@ -1,0 +1,40 @@
+﻿<ons-page>
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()">
+                <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">SmartMeter</div>
+    </ons-toolbar>
+
+    <div class="grid-menu-scroller">
+        <div class="grid-menu">
+            <div class="grid-menu-3items-row centering-and-alignment">
+                <div class="grid-menu-item list__item--tappable" ng-click="menu.setMainPage('sensors.html', {closeMenu: true})">
+                    <i class="fa fa-dot-circle-o"></i>
+                    <div class="grid-menu-item-label">Szenzorok</div>
+                </div>
+                <div class="grid-menu-item list__item--tappable" ng-click="menu.setMainPage('qr-code.html', {closeMenu: true})">
+                    <i class="fa fa-qrcode"></i>
+                    <div class="grid-menu-item-label">QR-kód olvasó</div>
+                </div>
+            </div>
+            <div class="grid-menu-3items-row centering-and-alignment">
+                <div class="grid-menu-item list__item--tappable" ng-click="menu.setMainPage('location.html', {closeMenu: true})">
+                    <i class="fa fa-globe"></i>
+                    <div class="grid-menu-item-label">Helymeghatározás</div>
+                </div>
+                <div class="grid-menu-item list__item--tappable" ng-click="menu.setMainPage('settings.html', {closeMenu: true})">
+                    <i class="fa fa-cog"></i>
+                    <div class="grid-menu-item-label">Beállítások</div>
+                </div>
+            </div>
+            <div class="grid-menu-3items-row centering-and-alignment">
+                <div class="grid-menu-item-1 list__item--tappable" ng-click="menu.setMainPage('admin.html', {closeMenu: true})">
+                    <i class="fa fa-lock"></i>
+                    <div class="grid-menu-item-label">Admin</div>
+                </div>
+            </div>
+        </div>
+</ons-page>

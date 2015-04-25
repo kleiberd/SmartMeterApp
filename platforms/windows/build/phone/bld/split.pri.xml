@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="com.smartmeter.app" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://com.smartmeter.app/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://com.smartmeter.app/Files/images/SplashScreen.png"/>
+				<NamedResource name="SplashScreenPhone.png" uri="ms-resource://com.smartmeter.app/Files/images/SplashScreenPhone.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreenPhone.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Square30x30Logo.png"/>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Square310x310Logo.png"/>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Square70x70Logo.png"/>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://com.smartmeter.app/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://com.smartmeter.app/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="admin.html" uri="ms-resource://com.smartmeter.app/Files/www/admin.html">
+					<Candidate type="Path">
+						<Value>www\admin.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova.js" uri="ms-resource://com.smartmeter.app/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova_plugins.js" uri="ms-resource://com.smartmeter.app/Files/www/cordova_plugins.js">
+					<Candidate type="Path">
+						<Value>www\cordova_plugins.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://com.smartmeter.app/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="location.html" uri="ms-resource://com.smartmeter.app/Files/www/location.html">
+					<Candidate type="Path">
+						<Value>www\location.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="menu.html" uri="ms-resource://com.smartmeter.app/Files/www/menu.html">
+					<Candidate type="Path">
+						<Value>www\menu.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="qr-code.html" uri="ms-resource://com.smartmeter.app/Files/www/qr-code.html">
+					<Candidate type="Path">
+						<Value>www\qr-code.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sensor.html" uri="ms-resource://com.smartmeter.app/Files/www/sensor.html">
+					<Candidate type="Path">
+						<Value>www\sensor.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sensors.html" uri="ms-resource://com.smartmeter.app/Files/www/sensors.html">
+					<Candidate type="Path">
+						<Value>www\sensors.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="settings.html" uri="ms-resource://com.smartmeter.app/Files/www/settings.html">
+					<Candidate type="Path">
+						<Value>www\settings.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="start.html" uri="ms-resource://com.smartmeter.app/Files/www/start.html">
+					<Candidate type="Path">
+						<Value>www\start.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stat.html" uri="ms-resource://com.smartmeter.app/Files/www/stat.html">
+					<Candidate type="Path">
+						<Value>www\stat.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="app.js" uri="ms-resource://com.smartmeter.app/Files/www/js/app.js">
+						<Candidate type="Path">
+							<Value>www\js\app.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="lib">
+					<ResourceMapSubtree name="canvasjs">
+						<NamedResource name="canvasjs.min.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/canvasjs/canvasjs.min.js">
+							<Candidate type="Path">
+								<Value>www\lib\canvasjs\canvasjs.min.js</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="onsen">
+						<ResourceMapSubtree name="css">
+							<NamedResource name="onsen-css-components-blue-basic-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components-blue-basic-theme.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components-blue-basic-theme.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsen-css-components-blue-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components-blue-theme.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components-blue-theme.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsen-css-components-dark-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components-dark-theme.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components-dark-theme.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsen-css-components-default.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components-default.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components-default.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsen-css-components-purple-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components-purple-theme.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components-purple-theme.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsen-css-components-sunshine-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components-sunshine-theme.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components-sunshine-theme.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsen-css-components.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsen-css-components.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsen-css-components.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsenui.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/onsenui.css">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\css\onsenui.css</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="font_awesome">
+								<ResourceMapSubtree name="css">
+									<NamedResource name="font-awesome.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/css/font-awesome.css">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\css\font-awesome.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="font-awesome.min.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/css/font-awesome.min.css">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\css\font-awesome.min.css</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="fonts">
+									<NamedResource name="fontawesome-webfont.eot" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.eot">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="fontawesome-webfont.svg" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.svg">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.ttf">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="fontawesome-webfont.woff" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.woff">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="FontAwesome.otf" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/font_awesome/fonts/FontAwesome.otf">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="ionicons">
+								<ResourceMapSubtree name="css">
+									<NamedResource name="ionicons.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/ionicons/css/ionicons.css">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\ionicons\css\ionicons.css</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="ionicons.min.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/ionicons/css/ionicons.min.css">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\ionicons\css\ionicons.min.css</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+								<ResourceMapSubtree name="fonts">
+									<NamedResource name="ionicons.eot" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/ionicons/fonts/ionicons.eot">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\ionicons\fonts\ionicons.eot</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="ionicons.svg" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/ionicons/fonts/ionicons.svg">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\ionicons\fonts\ionicons.svg</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="ionicons.ttf" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/ionicons/fonts/ionicons.ttf">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\ionicons\fonts\ionicons.ttf</Value>
+										</Candidate>
+									</NamedResource>
+									<NamedResource name="ionicons.woff" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/css/ionicons/fonts/ionicons.woff">
+										<Candidate type="Path">
+											<Value>www\lib\onsen\css\ionicons\fonts\ionicons.woff</Value>
+										</Candidate>
+									</NamedResource>
+								</ResourceMapSubtree>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="js">
+							<NamedResource name="onsenui.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/onsenui.js">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\js\onsenui.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsenui.min.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/onsenui.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\js\onsenui.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsenui_all.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/onsenui_all.js">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\js\onsenui_all.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="onsenui_all.min.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/onsenui_all.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\js\onsenui_all.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="angular">
+								<NamedResource name="angular-animate.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular-animate.js">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular-animate.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-csp.css" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular-csp.css">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular-csp.css</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-touch.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular-touch.js">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular-touch.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular.js">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular.min.js" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular.min.js">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular.min.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular.min.js.gzip" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular.min.js.gzip">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular.min.js.gzip</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular.min.js.map" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/angular.min.js.map">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\angular.min.js.map</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="bower.json" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/bower.json">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\bower.json</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="README.md" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/js/angular/README.md">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\js\angular\README.md</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="stylus">
+							<NamedResource name="blue-basic-theme.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/blue-basic-theme.styl">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\stylus\blue-basic-theme.styl</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="blue-theme.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/blue-theme.styl">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\stylus\blue-theme.styl</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="dark-theme.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/dark-theme.styl">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\stylus\dark-theme.styl</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="default.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/default.styl">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\stylus\default.styl</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="purple-theme.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/purple-theme.styl">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\stylus\purple-theme.styl</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="sunshine-theme.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/sunshine-theme.styl">
+								<Candidate type="Path">
+									<Value>www\lib\onsen\stylus\sunshine-theme.styl</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="components">
+								<NamedResource name="alert-dialog.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/alert-dialog.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\alert-dialog.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="button-bar.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/button-bar.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\button-bar.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="button.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/button.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\button.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="checkbox.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/checkbox.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\checkbox.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="dialog.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/dialog.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\dialog.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="global.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/global.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\global.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="index.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/index.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\index.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="list.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/list.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\list.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="modal.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/modal.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\modal.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="navigation-bar.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/navigation-bar.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\navigation-bar.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="notification.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/notification.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\notification.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="page.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/page.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\page.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="popover.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/popover.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\popover.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="radio-button.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/radio-button.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\radio-button.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="range.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/range.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\range.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="search-input.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/search-input.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\search-input.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="switch.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/switch.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\switch.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="tab-bar.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/tab-bar.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\tab-bar.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="text-input.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/text-input.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\text-input.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="textarea.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/textarea.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\textarea.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="toolbar-button.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/toolbar-button.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\toolbar-button.styl</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="util.styl" uri="ms-resource://com.smartmeter.app/Files/www/lib/onsen/stylus/components/util.styl">
+									<Candidate type="Path">
+										<Value>www\lib\onsen\stylus\components\util.styl</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="plugins">
+					<ResourceMapSubtree name="com.phonegap.plugins.barcodescanner">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows8">
+								<NamedResource name="BarcodeScannerProxy.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/com.phonegap.plugins.barcodescanner/src/windows8/BarcodeScannerProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\com.phonegap.plugins.barcodescanner\src\windows8\BarcodeScannerProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="barcodescanner.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/com.phonegap.plugins.barcodescanner/www/barcodescanner.js">
+								<Candidate type="Path">
+									<Value>www\plugins\com.phonegap.plugins.barcodescanner\www\barcodescanner.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.device-motion">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="AccelerometerProxy.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-motion/src/windows/AccelerometerProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.device-motion\src\windows\AccelerometerProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="Acceleration.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-motion/www/Acceleration.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.device-motion\www\Acceleration.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="accelerometer.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-motion/www/accelerometer.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.device-motion\www\accelerometer.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.device-orientation">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows8">
+								<NamedResource name="CompassProxy.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-orientation/src/windows8/CompassProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.device-orientation\src\windows8\CompassProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="compass.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-orientation/www/compass.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.device-orientation\www\compass.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="CompassError.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-orientation/www/CompassError.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.device-orientation\www\CompassError.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="CompassHeading.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.device-orientation/www/CompassHeading.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.device-orientation\www\CompassHeading.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.dialogs">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="NotificationProxy.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.dialogs/src/windows/NotificationProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.dialogs\src\windows\NotificationProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="notification.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.dialogs/www/notification.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.dialogs\www\notification.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.geolocation">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="GeolocationProxy.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.geolocation/src/windows/GeolocationProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.geolocation\src\windows\GeolocationProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="Coordinates.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.geolocation\www\Coordinates.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="geolocation.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.geolocation/www/geolocation.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.geolocation\www\geolocation.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Position.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.geolocation/www/Position.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.geolocation\www\Position.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="PositionError.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.geolocation/www/PositionError.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.geolocation\www\PositionError.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.splashscreen">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="splashscreen.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="windows8">
+								<NamedResource name="SplashScreenProxy.js" uri="ms-resource://com.smartmeter.app/Files/www/plugins/org.apache.cordova.splashscreen/www/windows8/SplashScreenProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.splashscreen\www\windows8\SplashScreenProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="res">
+					<NamedResource name=".pgbomit" uri="ms-resource://com.smartmeter.app/Files/www/res/.pgbomit">
+						<Candidate type="Path">
+							<Value>www\res\.pgbomit</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="icon.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon.png">
+						<Candidate type="Path">
+							<Value>www\res\icon.png</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="icon">
+						<ResourceMapSubtree name="android">
+							<NamedResource name="icon-144-xxhdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/android/icon-144-xxhdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\android\icon-144-xxhdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="icon-36-ldpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/android/icon-36-ldpi.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\android\icon-36-ldpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="icon-48-mdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/android/icon-48-mdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\android\icon-48-mdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="icon-72-hdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/android/icon-72-hdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\android\icon-72-hdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="icon-96-xhdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/android/icon-96-xhdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\android\icon-96-xhdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="bada">
+							<NamedResource name="icon-128.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/bada/icon-128.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\bada\icon-128.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="bada-wac">
+							<NamedResource name="icon-48-type5.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/bada-wac/icon-48-type5.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\bada-wac\icon-48-type5.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="icon-50-type3.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/bada-wac/icon-50-type3.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\bada-wac\icon-50-type3.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="icon-80-type4.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/bada-wac/icon-80-type4.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\bada-wac\icon-80-type4.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="blackberry">
+							<NamedResource name="icon-80.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/blackberry/icon-80.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\blackberry\icon-80.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="ios">
+							<NamedResource name="Icon-120.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-120.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-120.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-152.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-152.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-152.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-16.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-16.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-16.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-24.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-24.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-24.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-32.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-32.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-32.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-40.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-40.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-40.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-40@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-40%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-40@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-60.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-60.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-60.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-60@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-60%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-60@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-60@3x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-60%403x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-60@3x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-64.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-64.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-64.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-72.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-72.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-72.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-72@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-72%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-72@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-76.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-76.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-76.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-76@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-76%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-76@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small-40.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small-40.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small-40.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small-40@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small-40%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small-40@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small-40@3x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small-40%403x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small-40@3x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small-50.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small-50.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small-50.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small-50@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small-50%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small-50@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon-Small@3x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon-Small%403x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon-Small@3x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Icon@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/Icon%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\Icon@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="iTunesArtwork.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/iTunesArtwork.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\iTunesArtwork.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="iTunesArtwork@2x.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/ios/iTunesArtwork%402x.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\ios\iTunesArtwork@2x.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="tizen">
+							<NamedResource name="icon-128.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/tizen/icon-128.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\tizen\icon-128.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="webos">
+							<NamedResource name="icon-64.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/webos/icon-64.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\webos\icon-64.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="windows-phone">
+							<NamedResource name="ApplicationIcon.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/windows-phone/ApplicationIcon.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\windows-phone\ApplicationIcon.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Background.png" uri="ms-resource://com.smartmeter.app/Files/www/res/icon/windows-phone/Background.png">
+								<Candidate type="Path">
+									<Value>www\res\icon\windows-phone\Background.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="img">
+						<NamedResource name="icon.png" uri="ms-resource://com.smartmeter.app/Files/www/res/img/icon.png">
+							<Candidate type="Path">
+								<Value>www\res\img\icon.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="marker.png" uri="ms-resource://com.smartmeter.app/Files/www/res/img/marker.png">
+							<Candidate type="Path">
+								<Value>www\res\img\marker.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="screen">
+						<ResourceMapSubtree name="android">
+							<NamedResource name="splash-land-hdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-land-hdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-land-hdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-land-ldpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-land-ldpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-land-ldpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-land-mdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-land-mdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-land-mdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-land-xhdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-land-xhdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-land-xhdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-land-xxhdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-land-xxhdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-land-xxhdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-port-hdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-port-hdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-port-hdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-port-ldpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-port-ldpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-port-ldpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-port-mdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-port-mdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-port-mdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-port-xhdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-port-xhdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-port-xhdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="splash-port-xxhdpi.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/android/splash-port-xxhdpi.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\android\splash-port-xxhdpi.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="bada">
+							<NamedResource name="screen-portrait.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/bada/screen-portrait.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\bada\screen-portrait.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="bada-wac">
+							<NamedResource name="screen-type3.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/bada-wac/screen-type3.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\bada-wac\screen-type3.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="screen-type4.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/bada-wac/screen-type4.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\bada-wac\screen-type4.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="screen-type5.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/bada-wac/screen-type5.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\bada-wac\screen-type5.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="blackberry">
+							<NamedResource name="screen-225.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/blackberry/screen-225.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\blackberry\screen-225.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="ios">
+							<NamedResource name="Default-568h@2x~iphone.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-568h%402x~iphone.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-568h@2x~iphone.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-667h.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-667h.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-667h.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-736h.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-736h.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-736h.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-Landscape-736h.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-Landscape-736h.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-Landscape-736h.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-Landscape@2x~ipad.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-Landscape%402x~ipad.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-Landscape@2x~ipad.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-Landscape~ipad.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-Landscape~ipad.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-Landscape~ipad.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-Portrait@2x~ipad.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-Portrait%402x~ipad.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-Portrait@2x~ipad.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default-Portrait~ipad.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default-Portrait~ipad.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default-Portrait~ipad.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default@2x~iphone.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default%402x~iphone.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default@2x~iphone.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Default~iphone.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/ios/Default~iphone.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\ios\Default~iphone.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="tizen">
+							<NamedResource name="README.md" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/tizen/README.md">
+								<Candidate type="Path">
+									<Value>www\res\screen\tizen\README.md</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="webos">
+							<NamedResource name="screen-64.png" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/webos/screen-64.png">
+								<Candidate type="Path">
+									<Value>www\res\screen\webos\screen-64.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="windows-phone">
+							<NamedResource name="SplashScreenImage.jpg" uri="ms-resource://com.smartmeter.app/Files/www/res/screen/windows-phone/SplashScreenImage.jpg">
+								<Candidate type="Path">
+									<Value>www\res\screen\windows-phone\SplashScreenImage.jpg</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="styles">
+					<NamedResource name="app.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/app.css">
+						<Candidate type="Path">
+							<Value>www\styles\app.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="login.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/login.css">
+						<Candidate type="Path">
+							<Value>www\styles\login.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-blue-basic-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-blue-basic-theme.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-blue-basic-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-blue-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-blue-theme.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-blue-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-dark-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-dark-theme.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-dark-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-default.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-default.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-default.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-green-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-green-theme.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-green-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-purple-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-purple-theme.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-purple-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components-sunshine-theme.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components-sunshine-theme.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components-sunshine-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsen-css-components.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsen-css-components.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsen-css-components.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="onsenui.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/onsenui.css">
+						<Candidate type="Path">
+							<Value>www\styles\onsenui.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="settings.css" uri="ms-resource://com.smartmeter.app/Files/www/styles/settings.css">
+						<Candidate type="Path">
+							<Value>www\styles\settings.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

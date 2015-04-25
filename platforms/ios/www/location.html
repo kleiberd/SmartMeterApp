@@ -1,0 +1,27 @@
+<ons-page ng-controller="locationController">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()">
+                <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">Helymeghatározás</div>
+    </ons-toolbar>
+
+    <div style="width: 100%; height: 400px;" id="map_canvas"></div>
+
+    <ons-list modifier="inset" style="margin-top: 10px">
+        <ons-list-item class="to-wrapper list-item-container">
+            <div class="list-item-left">
+                <ons-icon icon="ion-location" size="28px" fixed-width="false" style="color: grey"></ons-icon>
+            </div>
+            <div class="list-item-right">
+                <div class="list-item-content">
+                    <div class="name">Pozíció</div>
+                    <span class="desc">Lat: {{ latitude }}, Lon: {{ longitude }}</span>
+                </div>
+            </div>
+        </ons-list-item>
+    </ons-list>
+
+</ons-page>

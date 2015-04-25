@@ -1,0 +1,45 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "package.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<DeviceCapability Name=\"webcam\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"location\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.phonegap.plugins.barcodescanner": {
+            "PACKAGE_NAME": "SmartMeter"
+        },
+        "org.apache.cordova.device-motion": {
+            "PACKAGE_NAME": "SmartMeter"
+        },
+        "org.apache.cordova.device-orientation": {
+            "PACKAGE_NAME": "SmartMeter"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "SmartMeter"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "SmartMeter"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "SmartMeter"
+        }
+    },
+    "dependent_plugins": {}
+}

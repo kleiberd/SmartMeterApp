@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAVID</Machine>
+    <WindowsUser>David</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e95f20a0-e372-11e4-931a-71c67d9d34ca</PackageIdentityName>
+    <IntermediateOutputPath>D:\Dev\Projects\SmartMeterApp\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\plugins\com.phonegap.plugins.barcodescanner\WinRTBarcodeReader.winmd">
+      <PackagePath>WinRTBarcodeReader.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\plugins\com.phonegap.plugins.barcodescanner\ZXing.winmd">
+      <PackagePath>ZXing.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon.png">
+      <PackagePath>www\res\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\android\icon-144-xxhdpi.png">
+      <PackagePath>www\res\icon\android\icon-144-xxhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\android\icon-36-ldpi.png">
+      <PackagePath>www\res\icon\android\icon-36-ldpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\android\icon-48-mdpi.png">
+      <PackagePath>www\res\icon\android\icon-48-mdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\android\icon-72-hdpi.png">
+      <PackagePath>www\res\icon\android\icon-72-hdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\android\icon-96-xhdpi.png">
+      <PackagePath>www\res\icon\android\icon-96-xhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\bada-wac\icon-48-type5.png">
+      <PackagePath>www\res\icon\bada-wac\icon-48-type5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\bada-wac\icon-50-type3.png">
+      <PackagePath>www\res\icon\bada-wac\icon-50-type3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\bada-wac\icon-80-type4.png">
+      <PackagePath>www\res\icon\bada-wac\icon-80-type4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\bada\icon-128.png">
+      <PackagePath>www\res\icon\bada\icon-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\blackberry\icon-80.png">
+      <PackagePath>www\res\icon\blackberry\icon-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-120.png">
+      <PackagePath>www\res\icon\ios\Icon-120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-152.png">
+      <PackagePath>www\res\icon\ios\Icon-152.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-16.png">
+      <PackagePath>www\res\icon\ios\Icon-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-24.png">
+      <PackagePath>www\res\icon\ios\Icon-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-32.png">
+      <PackagePath>www\res\icon\ios\Icon-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-40.png">
+      <PackagePath>www\res\icon\ios\Icon-40.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-40%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-40%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-60.png">
+      <PackagePath>www\res\icon\ios\Icon-60.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-60%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-60%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-60%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-60%403x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-64.png">
+      <PackagePath>www\res\icon\ios\Icon-64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-72.png">
+      <PackagePath>www\res\icon\ios\Icon-72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-72%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-72%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-76.png">
+      <PackagePath>www\res\icon\ios\Icon-76.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-76%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-76%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small-40.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-40.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small-40%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-40%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small-40%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-40%403x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small-50.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small-50%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-50%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small.png">
+      <PackagePath>www\res\icon\ios\Icon-Small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon-Small%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small%403x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon.png">
+      <PackagePath>www\res\icon\ios\Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\Icon%402x.png">
+      <PackagePath>www\res\icon\ios\Icon%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\iTunesArtwork.png">
+      <PackagePath>www\res\icon\ios\iTunesArtwork.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\ios\iTunesArtwork%402x.png">
+      <PackagePath>www\res\icon\ios\iTunesArtwork%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\tizen\icon-128.png">
+      <PackagePath>www\res\icon\tizen\icon-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\webos\icon-64.png">
+      <PackagePath>www\res\icon\webos\icon-64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\windows-phone\ApplicationIcon.png">
+      <PackagePath>www\res\icon\windows-phone\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\icon\windows-phone\Background.png">
+      <PackagePath>www\res\icon\windows-phone\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\img\icon.png">
+      <PackagePath>www\res\img\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\img\marker.png">
+      <PackagePath>www\res\img\marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-land-hdpi.png">
+      <PackagePath>www\res\screen\android\splash-land-hdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-land-ldpi.png">
+      <PackagePath>www\res\screen\android\splash-land-ldpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-land-mdpi.png">
+      <PackagePath>www\res\screen\android\splash-land-mdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-land-xhdpi.png">
+      <PackagePath>www\res\screen\android\splash-land-xhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-land-xxhdpi.png">
+      <PackagePath>www\res\screen\android\splash-land-xxhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-port-hdpi.png">
+      <PackagePath>www\res\screen\android\splash-port-hdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-port-ldpi.png">
+      <PackagePath>www\res\screen\android\splash-port-ldpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-port-mdpi.png">
+      <PackagePath>www\res\screen\android\splash-port-mdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-port-xhdpi.png">
+      <PackagePath>www\res\screen\android\splash-port-xhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\android\splash-port-xxhdpi.png">
+      <PackagePath>www\res\screen\android\splash-port-xxhdpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\bada-wac\screen-type3.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\bada-wac\screen-type4.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\bada-wac\screen-type5.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\bada\screen-portrait.png">
+      <PackagePath>www\res\screen\bada\screen-portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\blackberry\screen-225.png">
+      <PackagePath>www\res\screen\blackberry\screen-225.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-568h%402x~iphone.png">
+      <PackagePath>www\res\screen\ios\Default-568h%402x~iphone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-667h.png">
+      <PackagePath>www\res\screen\ios\Default-667h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-736h.png">
+      <PackagePath>www\res\screen\ios\Default-736h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-Landscape-736h.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape-736h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-Landscape%402x~ipad.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape%402x~ipad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-Landscape~ipad.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape~ipad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-Portrait%402x~ipad.png">
+      <PackagePath>www\res\screen\ios\Default-Portrait%402x~ipad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default-Portrait~ipad.png">
+      <PackagePath>www\res\screen\ios\Default-Portrait~ipad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default%402x~iphone.png">
+      <PackagePath>www\res\screen\ios\Default%402x~iphone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\ios\Default~iphone.png">
+      <PackagePath>www\res\screen\ios\Default~iphone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\webos\screen-64.png">
+      <PackagePath>www\res\screen\webos\screen-64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\admin.html">
+      <PackagePath>www\admin.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\location.html">
+      <PackagePath>www\location.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\menu.html">
+      <PackagePath>www\menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\qr-code.html">
+      <PackagePath>www\qr-code.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\sensor.html">
+      <PackagePath>www\sensor.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\sensors.html">
+      <PackagePath>www\sensors.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\settings.html">
+      <PackagePath>www\settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\start.html">
+      <PackagePath>www\start.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\stat.html">
+      <PackagePath>www\stat.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\canvasjs\canvasjs.min.js">
+      <PackagePath>www\lib\canvasjs\canvasjs.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular-animate.js">
+      <PackagePath>www\lib\onsen\js\angular\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular-touch.js">
+      <PackagePath>www\lib\onsen\js\angular\angular-touch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular.js">
+      <PackagePath>www\lib\onsen\js\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular.min.js">
+      <PackagePath>www\lib\onsen\js\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\onsenui.js">
+      <PackagePath>www\lib\onsen\js\onsenui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\onsenui.min.js">
+      <PackagePath>www\lib\onsen\js\onsenui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\onsenui_all.js">
+      <PackagePath>www\lib\onsen\js\onsenui_all.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\onsenui_all.min.js">
+      <PackagePath>www\lib\onsen\js\onsenui_all.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\com.phonegap.plugins.barcodescanner\src\windows8\BarcodeScannerProxy.js">
+      <PackagePath>www\plugins\com.phonegap.plugins.barcodescanner\src\windows8\BarcodeScannerProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\com.phonegap.plugins.barcodescanner\www\barcodescanner.js">
+      <PackagePath>www\plugins\com.phonegap.plugins.barcodescanner\www\barcodescanner.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-motion\src\windows\AccelerometerProxy.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-motion\src\windows\AccelerometerProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-motion\www\Acceleration.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-motion\www\accelerometer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-orientation\src\windows8\CompassProxy.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-orientation\src\windows8\CompassProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-orientation\www\compass.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-orientation\www\compass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-orientation\www\CompassError.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-orientation\www\CompassError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.device-orientation\www\CompassHeading.js">
+      <PackagePath>www\plugins\org.apache.cordova.device-orientation\www\CompassHeading.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\org.apache.cordova.dialogs\src\windows\NotificationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.dialogs\www\notification.js">
+      <PackagePath>www\plugins\org.apache.cordova.dialogs\www\notification.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\org.apache.cordova.geolocation\src\windows\GeolocationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\org.apache.cordova.geolocation\www\Coordinates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\org.apache.cordova.geolocation\www\geolocation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.geolocation\www\Position.js">
+      <PackagePath>www\plugins\org.apache.cordova.geolocation\www\Position.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\org.apache.cordova.geolocation\www\PositionError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\plugins\org.apache.cordova.splashscreen\www\windows8\SplashScreenProxy.js">
+      <PackagePath>www\plugins\org.apache.cordova.splashscreen\www\windows8\SplashScreenProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\css\font-awesome.css">
+      <PackagePath>www\lib\onsen\css\font_awesome\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\css\font-awesome.min.css">
+      <PackagePath>www\lib\onsen\css\font_awesome\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\ionicons\css\ionicons.css">
+      <PackagePath>www\lib\onsen\css\ionicons\css\ionicons.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\ionicons\css\ionicons.min.css">
+      <PackagePath>www\lib\onsen\css\ionicons\css\ionicons.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components-blue-basic-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-blue-basic-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components-blue-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-blue-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components-dark-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-dark-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components-default.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components-purple-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-purple-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components-sunshine-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-sunshine-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsen-css-components.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\onsenui.css">
+      <PackagePath>www\lib\onsen\css\onsenui.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular-csp.css">
+      <PackagePath>www\lib\onsen\js\angular\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\app.css">
+      <PackagePath>www\styles\app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\login.css">
+      <PackagePath>www\styles\login.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-blue-basic-theme.css">
+      <PackagePath>www\styles\onsen-css-components-blue-basic-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-blue-theme.css">
+      <PackagePath>www\styles\onsen-css-components-blue-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-dark-theme.css">
+      <PackagePath>www\styles\onsen-css-components-dark-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-default.css">
+      <PackagePath>www\styles\onsen-css-components-default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-green-theme.css">
+      <PackagePath>www\styles\onsen-css-components-green-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-purple-theme.css">
+      <PackagePath>www\styles\onsen-css-components-purple-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components-sunshine-theme.css">
+      <PackagePath>www\styles\onsen-css-components-sunshine-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsen-css-components.css">
+      <PackagePath>www\styles\onsen-css-components.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\onsenui.css">
+      <PackagePath>www\styles\onsenui.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\styles\settings.css">
+      <PackagePath>www\styles\settings.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.eot">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.svg">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.ttf">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.woff">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\onsen\js\angular\angular.min.js.gzip</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\angular.min.js.map">
+      <PackagePath>www\lib\onsen\js\angular\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\bower.json">
+      <PackagePath>www\lib\onsen\js\angular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\js\angular\README.md">
+      <PackagePath>www\lib\onsen\js\angular\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\tizen\README.md">
+      <PackagePath>www\res\screen\tizen\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\blue-basic-theme.styl">
+      <PackagePath>www\lib\onsen\stylus\blue-basic-theme.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\blue-theme.styl">
+      <PackagePath>www\lib\onsen\stylus\blue-theme.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\alert-dialog.styl">
+      <PackagePath>www\lib\onsen\stylus\components\alert-dialog.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\button-bar.styl">
+      <PackagePath>www\lib\onsen\stylus\components\button-bar.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\button.styl">
+      <PackagePath>www\lib\onsen\stylus\components\button.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\checkbox.styl">
+      <PackagePath>www\lib\onsen\stylus\components\checkbox.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\dialog.styl">
+      <PackagePath>www\lib\onsen\stylus\components\dialog.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\global.styl">
+      <PackagePath>www\lib\onsen\stylus\components\global.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\index.styl">
+      <PackagePath>www\lib\onsen\stylus\components\index.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\list.styl">
+      <PackagePath>www\lib\onsen\stylus\components\list.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\modal.styl">
+      <PackagePath>www\lib\onsen\stylus\components\modal.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\navigation-bar.styl">
+      <PackagePath>www\lib\onsen\stylus\components\navigation-bar.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\notification.styl">
+      <PackagePath>www\lib\onsen\stylus\components\notification.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\page.styl">
+      <PackagePath>www\lib\onsen\stylus\components\page.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\popover.styl">
+      <PackagePath>www\lib\onsen\stylus\components\popover.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\radio-button.styl">
+      <PackagePath>www\lib\onsen\stylus\components\radio-button.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\range.styl">
+      <PackagePath>www\lib\onsen\stylus\components\range.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\search-input.styl">
+      <PackagePath>www\lib\onsen\stylus\components\search-input.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\switch.styl">
+      <PackagePath>www\lib\onsen\stylus\components\switch.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\tab-bar.styl">
+      <PackagePath>www\lib\onsen\stylus\components\tab-bar.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\text-input.styl">
+      <PackagePath>www\lib\onsen\stylus\components\text-input.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\textarea.styl">
+      <PackagePath>www\lib\onsen\stylus\components\textarea.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\toolbar-button.styl">
+      <PackagePath>www\lib\onsen\stylus\components\toolbar-button.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\components\util.styl">
+      <PackagePath>www\lib\onsen\stylus\components\util.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\dark-theme.styl">
+      <PackagePath>www\lib\onsen\stylus\dark-theme.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\default.styl">
+      <PackagePath>www\lib\onsen\stylus\default.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\purple-theme.styl">
+      <PackagePath>www\lib\onsen\stylus\purple-theme.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\lib\onsen\stylus\sunshine-theme.styl">
+      <PackagePath>www\lib\onsen\stylus\sunshine-theme.styl</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\.pgbomit">
+      <PackagePath>www\res\.pgbomit</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\www\res\screen\windows-phone\SplashScreenImage.jpg">
+      <PackagePath>www\res\screen\windows-phone\SplashScreenImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\Projects\SmartMeterApp\platforms\windows\build\phone\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
